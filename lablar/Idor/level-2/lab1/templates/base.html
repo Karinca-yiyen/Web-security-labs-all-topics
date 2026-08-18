@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>{% block title %}NovaMart{% endblock %}</title>
+<link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+<nav>
+  <a class="brand" href="/">NovaMart</a>
+  <span class="nav-en">E-commerce / E-Ticaret</span>
+  <div class="nav-right">
+    {% if session.get("username") %}
+      <span>{{ session.get("username") }} · {{ session.get("role") }}</span>
+      <a href="/dashboard">Dashboard</a>
+      <a href="/logout">Logout</a>
+    {% else %}
+      <a href="/login">Login / Giriş</a>
+    {% endif %}
+  </div>
+</nav>
+<main>{% block content %}{% endblock %}</main>
+<footer>NovaMart Security Training Environment · Local Lab Only</footer>
+</body>
+</html>

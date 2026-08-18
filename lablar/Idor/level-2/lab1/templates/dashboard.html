@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% block title %}Dashboard — NovaMart{% endblock %}
+{% block content %}
+<div class="panel">
+<h2>My Orders / Siparişlerim</h2>
+<p class="muted">Normal kullanıcı görünümü / Normal user view</p>
+<table>
+<tr><th>Order ID</th><th>Product / Ürün</th><th>Total</th><th>Status</th></tr>
+{% for o in orders %}
+<tr><td>{{ o.id }}</td><td>{{ o.product }}</td><td>₺{{ "%.2f"|format(o.total) }}</td><td>{{ o.status }}</td></tr>
+{% endfor %}
+</table>
+</div>
+{% endblock %}

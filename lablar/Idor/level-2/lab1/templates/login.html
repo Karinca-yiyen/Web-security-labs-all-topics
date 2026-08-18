@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% block title %}Login — NovaMart{% endblock %}
+{% block content %}
+<div class="panel narrow">
+<h2>Login / Giriş Yap</h2>
+<p class="muted">Training account / Eğitim hesabı: <code>yagiz veya osman</code> / <code>demo123</code></p>
+{% if error %}<div class="error">{{ error }}</div>{% endif %}
+<form method="post">
+<label>Username / Kullanıcı adı</label>
+<input name="username" required>
+<label>Password / Şifre</label>
+<input name="password" type="password" required>
+<button class="btn">Login / Giriş</button>
+</form>
+</div>
+{% endblock %}
