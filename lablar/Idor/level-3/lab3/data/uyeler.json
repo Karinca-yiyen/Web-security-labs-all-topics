@@ -1,0 +1,42 @@
+[
+  {
+    "id": "a1e4f2b0-11aa-4c3d-9f10-000000000000",
+    "kullaniciAdi": "kralice_nefertari",
+    "sifre": "KolonininKalbi#2024",
+    "email": "kralice@karincaticaret.local",
+    "rol": "kralice",
+    "yuva": "Ana Yuva - Oda 0",
+    "besinPuani": 999999,
+    "aciklama": "Kolonini kuran ve yoneten kralice. Tum uyelik islemlerinden ve pazarin duzeninden sorumlu. / Founder and ruler of the colony. Responsible for all membership operations and market order."
+  },
+  {
+    "id": "a1e4f2b0-11aa-4c3d-9f10-000000000002",
+    "kullaniciAdi": "iscikarinca_toprak",
+    "sifre": "yaprak123",
+    "email": "toprak@karincaticaret.local",
+    "rol": "isci",
+    "yuva": "Yuva B - Tunel 12",
+    "besinPuani": 340,
+    "aciklama": "Deneyimli bir yaprak tasiyici isci karinca. / An experienced leaf-carrier worker ant."
+  },
+  {
+    "id": "a1e4f2b0-11aa-4c3d-9f10-000000000003",
+    "kullaniciAdi": "askerkarinca_demir",
+    "sifre": "savunma456",
+    "email": "demir@karincaticaret.local",
+    "rol": "asker",
+    "yuva": "Yuva A - Nobet Kulesi 3",
+    "besinPuani": 120,
+    "aciklama": "Koloniyi disaridan gelen tehditlere karsi koruyan asker karinca. / A soldier ant defending the colony from outside threats."
+  },
+  {
+    "id": "a1e4f2b0-11aa-4c3d-9f10-000000000004",
+    "kullaniciAdi": "tacirkarinca_findik",
+    "sifre": "pazar789",
+    "email": "findik@karincaticaret.local",
+    "rol": "isci",
+    "yuva": "Yuva C - Depo 7",
+    "besinPuani": 875,
+    "aciklama": "Pazarda en cok mantar ve tohum satan tacir karinca. / A trader ant that sells the most mushrooms and seeds in the market."
+  }
+]

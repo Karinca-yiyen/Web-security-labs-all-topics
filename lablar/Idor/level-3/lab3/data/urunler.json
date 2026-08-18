@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "ad": "Yaprak Parcasi",
+    "adEn": "Leaf Fragment",
+    "aciklama": "Taze kesilmis, mantar bahcesi icin ideal yaprak parcasi. / Freshly cut leaf fragment, ideal for the fungus garden.",
+    "fiyat": 15,
+    "birim": "Besin Puani",
+    "ikon": "yaprak.svg",
+    "stok": 240
+  },
+  {
+    "id": 2,
+    "ad": "Tohum",
+    "adEn": "Seed",
+    "aciklama": "Kis depolamasi icin kurutulmus tohum. / Dried seed for winter storage.",
+    "fiyat": 25,
+    "birim": "Besin Puani",
+    "ikon": "tohum.svg",
+    "stok": 130
+  },
+  {
+    "id": 3,
+    "ad": "Yer Mantari",
+    "adEn": "Underground Fungus",
+    "aciklama": "Ozel yetistirilen kolonininmiz mantar bahcesinden. / Specially cultivated from our colony's fungus garden.",
+    "fiyat": 40,
+    "birim": "Besin Puani",
+    "ikon": "mantar.svg",
+    "stok": 80
+  },
+  {
+    "id": 4,
+    "ad": "Afit Bali",
+    "adEn": "Aphid Honeydew",
+    "aciklama": "Afitlerden toplanan tatli salgi, kralice sofrasinin favorisi. / Sweet honeydew collected from aphids, the queen's favorite.",
+    "fiyat": 60,
+    "birim": "Besin Puani",
+    "ikon": "bal.svg",
+    "stok": 45
+  },
+  {
+    "id": 5,
+    "ad": "Larva Bakim Hizmeti",
+    "adEn": "Larva Care Service",
+    "aciklama": "Larvalarin beslenmesi ve temizligi icin uzman hizmet. / Expert service for feeding and cleaning larvae.",
+    "fiyat": 90,
+    "birim": "Besin Puani",
+    "ikon": "larva.svg",
+    "stok": 20
+  }
+]

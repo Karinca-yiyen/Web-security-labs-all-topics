@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Karınca Ticaret — Yönetim Paneli / Admin Panel</title>
+<link rel="stylesheet" href="/css/stil.css" />
+<link rel="icon" href="/img/logo.svg" />
+</head>
+<body>
+  <div id="ust-bar-alani"></div>
+
+  <main class="ana-icerik">
+    <div class="baslik-alani">
+      <h1>👑 Kraliçe Yönetim Paneli</h1>
+      <p>Koloni üyelerini görüntüle ve gerektiğinde koloniden çıkar.</p>
+      <p class="en">View colony members and remove them from the colony if necessary.</p>
+    </div>
+
+    <div class="uyari-kutu">
+      <strong>Not / Note:</strong> Bu panel <code>/api/yonetim/uyeler</code> uç noktasını kullanır ve sunucu tarafında rolünü doğru şekilde kontrol eder — bu <em>doğru</em> yaklaşımın örneğidir.
+      <br /><span style="opacity:.8">This panel uses the <code>/api/yonetim/uyeler</code> endpoint, which correctly checks your role server-side — this is an example of the <em>correct</em> approach.</span>
+    </div>
+
+    <div id="uye-listesi" class="uye-listesi"></div>
+  </main>
+
+  <footer class="alt-bilgi">
+  </footer>
+
+  <script src="/js/ortak.js"></script>
+  <script src="/js/yonetim.js"></script>
+</body>
+</html>

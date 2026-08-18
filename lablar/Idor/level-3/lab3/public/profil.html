@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Karınca Ticaret — Profilim / My Profile</title>
+<link rel="stylesheet" href="/css/stil.css" />
+<link rel="icon" href="/img/logo.svg" />
+</head>
+<body>
+  <div id="ust-bar-alani"></div>
+
+  <main class="ana-icerik">
+    <div class="baslik-alani">
+      <h1>🪪 Profilim</h1>
+      <p>Kimlik bilgilerin, yuvanın ve besin puanın.</p>
+      <p class="en">Your identity, nest and nutrition points.</p>
+    </div>
+
+    <div class="kart profil-detay" id="kendi-profil" style="max-width:560px;margin:0 auto 40px;"></div>
+
+    <div class="kart" style="max-width:560px;margin:0 auto;">
+      <h3 style="margin-top:0;color:var(--amber-parlak)">🔍 Bir Koloni Üyesinin Profilini Görüntüle</h3>
+      <p class="en" style="margin-top:-6px;">View another colony member's profile</p>
+      <p class="ipucu">Koloni Üyeleri sayfasından öğrendiğin bir üye kimliğini (ID) buraya yapıştır. / Paste a member ID (learned from the Members page / network requests) here.</p>
+      <div style="display:flex;gap:8px;margin-top:10px;flex-wrap:wrap;">
+        <input type="text" id="hedef-id" placeholder="örn. a1e4f2b0-11aa-4c3d-9f10-000000000002" style="flex:1;min-width:220px;padding:10px 12px;border-radius:8px;border:1px solid var(--agac);background:rgba(0,0,0,.25);color:var(--krem);" />
+        <button id="goruntule-btn">Görüntüle / View</button>
+      </div>
+      <div id="mesaj" class="mesaj-kutu"></div>
+      <div id="hedef-profil" style="margin-top:18px;"></div>
+    </div>
+  </main>
+
+  <footer class="alt-bilgi">
+  </footer>
+
+  <script src="/js/ortak.js"></script>
+  <script src="/js/profil.js"></script>
+</body>
+</html>

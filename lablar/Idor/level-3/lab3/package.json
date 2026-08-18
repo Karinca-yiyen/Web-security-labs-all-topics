@@ -1,0 +1,17 @@
+{
+  "name": "karinca-ticaret-idor-lab",
+  "version": "1.0.0",
+  "description": "IDOR Lab - Seviye 2 | Karinca Ticaret (Ant Trade) - E-ticaret temali guvenlik laboratuvari",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": ["idor", "security-lab", "broken-access-control", "owasp"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "express-session": "^1.18.0",
+    "uuid": "^9.0.1"
+  }
+}
