@@ -1838,6 +1838,10 @@ tt
 COPYRIGHT
 Directory
 INSTALL
+api/orders
+api/orders/
+/api/orders
+/api/orders/
 IT
 Newsletters
 Reports List
