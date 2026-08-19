@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="400" viewBox="0 0 640 400">
+  <rect width="640" height="400" fill="#eef1f5"/>
+  <rect x="60" y="220" width="520" height="20" fill="#8d99ae"/>
+  <rect x="90" y="120" width="140" height="100" fill="#adb5bd"/>
+  <rect x="260" y="120" width="140" height="100" fill="#adb5bd"/>
+  <rect x="430" y="120" width="140" height="100" fill="#adb5bd"/>
+  <text x="320" y="385" font-family="Georgia, serif" font-size="18" fill="#333" text-anchor="middle">Admin - Aylik Rapor</text>
+</svg>
